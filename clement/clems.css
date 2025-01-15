@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.459),rgba(0, 0, 0, 0.322),rgba(0, 0, 0, 0.37)),url(Cup-of-coffee.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+img{
+    height:40PX ;
+    width: 40px;
+    
+}
+header{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    padding:20px ;
+    
+   
+}
+nav ul{
+    gap: 40px;
+    display: flex;
+    list-style: none;
+  
+
+}
+nav ul li a{
+   color: azure;
+
+}
+span{
+    color: rgba(0, 255, 242, 0.767);
+    border-left:2px solid rgba(248, 248, 248, 0.705);
+    padding-left: 70px;
+    /* align-items: center; */
+    padding-right: 60px;
+
+}
+.slap{
+   text-align: center; 
+   margin-top: 6%;
+
+}
+.slap img{
+    width: 100px;
+    height: 100px;
+  
+}
+h1{
+    font-size: 80px;
+    color: white;
+    
+}
+h3{
+    color: rgba(255, 255, 255, 0.644);
+    font-size: 40px;
+    margin-top:40px ;
+}
+button{
+    background: transparent;
+    border-radius: 20px;
+    width: 120px;
+    height: 40px;
+    box-shadow: 0cqmax;
+    color: bisque;
+    border-color: azure;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+.no{
+    float: right;
+}
